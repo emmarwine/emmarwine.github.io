@@ -1,0 +1,83 @@
+/* stylesheet for boston fern website */
+
+header {
+	background-color: olive; 
+}
+
+h1 {  
+color: white;
+
+ }
+
+ header li#Ferns
+ { margin: 10px }
+
+ header li a { 
+text-transform: uppercase;
+  }
+
+header li#Shops {
+	margin: 10px
+}
+
+header li#Shops a { 
+border: solid 
+ }
+
+
+header ul {
+	list-style: none;
+} 
+
+li {
+
+	display: inline;
+}
+li {
+	border-left: 1px solid;
+}
+
+li {
+
+border-right: 1px solid;
+
+}
+
+
+
+#Shops {
+	color: white;
+	background-color: tan;
+}
+
+#Care { 
+color: white;
+background-color: tan
+ }
+
+#Food {
+	color: white;
+	background-color: tan
+
+}
+
+#Ferns {
+	color: white;
+	background-color: tan
+
+}
+
+
+a { text-decoration: none;
+	font-weight: 500; } 
+
+
+
+h4 { color: orange
+ }
+
+body { font-family: raleway }
+ 
+ footer { 
+ color: navy
+  } 
