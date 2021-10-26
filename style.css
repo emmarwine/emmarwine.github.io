@@ -1,83 +1,141 @@
-/* stylesheet for boston fern website */
+/* STYLE SHEET */
+/*
+COLORS
+#fffcf5 ecru
+#a39e93 ecru
+#c94a00 orange
+#a13b00 dark orange
+#66615a brown
+#ffffff white
+#ec5e28 bright orange
+#f1eae1 light ecru
+#67625e
+#66625b dark clay
+#252321 almsot black grey
 
-header {
-	background-color: olive; 
-}
+FONTS
+Roboto San Serif
+h1 - 74px 300weight uppercase
+	span - 700weight
+	simply - 70px normal weight
+h2 - 20px bolder
+h3
+h4
+h5
+h6
+body - 16px
+header - 14px */
 
-h1 {  
-color: white;
 
+li a { 
+	text-transform: uppercase;
+	text-decoration: none;
  }
 
- header li#Ferns
- { margin: 10px }
-
- header li a { 
-text-transform: uppercase;
-  }
-
-header li#Shops {
-	margin: 10px
-}
-
-header li#Shops a { 
-border: solid 
- }
-
-
-header ul {
-	list-style: none;
-} 
-
-li {
-
+li { list-style: none;
 	display: inline;
-}
-li {
-	border-left: 1px solid;
-}
+	letter-spacing: normal;
+	}
 
-li {
-
-border-right: 1px solid;
-
-}
-
-
-
-#Shops {
+ a {
+	text-decoration: none;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	line-height: 1.3em;
 	color: white;
-	background-color: tan;
+	word-spacing: 200px; }
+
+nav li{
+    height: 48px;
+    width: 200px;
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#Care { 
-color: white;
-background-color: tan
- }
+h1{ color: white;
+font: raleway; }
 
-#Food {
-	color: white;
-	background-color: tan
+header a:hover {
+	color: lightblue;
+	}
 
-}
+header { 
+	width: 100%;
+	background-color: #a13b00; }
 
-#Ferns {
-	color: white;
-	background-color: tan
-
-}
-
-
-a { text-decoration: none;
-	font-weight: 500; } 
+img { 
+width: 150px;
+height: 150px; }
 
 
 
-h4 { color: orange
- }
+/* Typography*/
 
-body { font-family: raleway }
- 
- footer { 
- color: navy
-  } 
+body { font-family: raleway;
+	background-image: url(https://images.wallpapersden.com/image/download/blue-mountains-landscape_a2dtbmmUmZqaraWkpJRmbmdlrWZlbWU.jpg); 
+	background-repeat: no-repeat;
+	background-size: 1920px 3080px;
+	margin: 0;
+	padding: 0;
+	border: 0; }
+
+
+p { word-spacing: 80px; }
+
+ul {
+  list-style-type: none;
+  width: 100%;
+  height: 50px;
+  margin: auto;
+  padding: 1px;
+  overflow: hidden;
+  background-color: #a13b00; }
+
+
+
+.textbox { 
+		background: #fffcf5;
+		border: 10px solid #a13b00;
+		padding: 40px;
+		margin: 50px;
+		width: 85%;
+   		height: auto; 
+   		float: right}
+
+span { font-weight: bold; 
+	font-size: 30px; }
+
+
+	.textbox2 { 
+		background: #fffcf5;
+		border: 10px solid #a13b00;
+		padding: 40px;
+		margin: 50px;
+		width:10%;
+   		height: auto; 
+   		float: right}
+
+h2  { color: white; 
+font-size: 25px;
+font-family: raleway; }
+
+
+h3  { color: white; }
+h4  { color: white; }
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,45 @@
+.container1 {
+    width: 450px;
+    height: 650px;
+    float: right;
+}
+/* Resize images */
+.container1 img { 
+    width: 100%;
+    height: auto;
+}
+
+
+
+.container2 {
+    width: 450px;
+    height: 650px;
+    float: right;
+}
+/* Resize images */
+.container2 img { 
+    width: 100%;
+    height: auto;
+}
+
+
+
+.container3 {
+    width: 450px;
+    height: 650px;
+    float: right;
+}
+
+/* Resize images */
+.container3 img { 
+    width: 100%;
+    height: auto; }
+
+.column {
+  float: left;
+  width: 25%;
+
+
+
+
+
