@@ -1,116 +1,199 @@
 <!DOCTYPE html>
-<html lang= "en">
+<html lang="en">
+<head> 
+		<!-- This is where you put everything that needs to be read by the browser but not rendered visually -->
+		<meta charset="UTF-8"> <!-- new -->
 
-<head>
-	
-<title> emmawine photography</title>
+		<title>53 Website_WineEmma</title>
+		<link rel="stylesheet" type="text/css" href="normalize.css">
+		<link rel="stylesheet" type="text/css" href="grid.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
 
-	<link rel="stylesheet" type="text/css" href="grid.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="grid.css">
+<!-- below here is the font infor -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-
+		<style type="text/css"></style>
 </head>
 
-<!-- This is where the logo and header will be--> 
-<body> 
-	<header>
-
-			<img src="https://www.pngarts.com/files/10/Camera-PNG-Picture.png"> 
-			<h1> emmawine photography</h1>
-		
+<body>
+	<header class="container">
 		<div class="row">
-			<a href="index.html"></a>
-	<nav>
-		<ul>
-			<div class="topnav">
-
-				<li><a href="index.html">Home</a></li>
-				<li><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="">Testimonials</a></li>
-				<li><a href="">Investment</a></li>
-				<li><a href="">Contact</a></li>		
-		</ul>		
-	</nav>
+			<div class="col-sm-4 offset-lg-1">
+				<a href="index.html"><img src="images/logo-53.png" alt="Logo"></a>
+			</div>
+			<nav class="col-lg-7">
+				<ul>
+					<li class="added-margin"><a href="about.html">About</a></li>
+					<li class="added-margin"><a href="products.html">Products</a></li>
+					<li class="added-margin"><a href="#">Paper</a></li>
+					<li class="added-margin"><a href="#">Paste</a></li>
+					<li id="download-link"><a href="#">Download</a></li>
+					<li id="facebook-icon"><a href="http://www.facebook.com" target="_blank"><img src="images/icon-facebook.png" alt="Facebook"></a></li>
+					<li id="twitter-icon"><a href="http://www.twitter.com" target="_blank"><img src="images/icon-twitter.png" alt="Twitter"></a></li>
+				</ul>
+			</nav>
+		</div> <!-- .row -->
 	</header>
-
 </body>
 
-<div id= "background"></div>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-			
-
-<section>
-	
-		<div class="container1">
-    			<img src="https://images.squarespace-cdn.com/content/v1/5ee3fd21ad8db210d3b84377/1592092054267-ZV96VH36KOY4WIRP8L78/Nick%26Krystal-2.jpg?format=1500w" />
-				</div>
-
-		<div class="container2">
-    			<img src="https://images.squarespace-cdn.com/content/v1/5ee3fd21ad8db210d3b84377/193ec72c-6c0c-43c7-ab8c-75239cb1b98c/_DSC5966.jpg?format=1000w" />
-				</div>
-
-		<div class="container3">
-    			<img src="https://images.squarespace-cdn.com/content/v1/5ee3fd21ad8db210d3b84377/1599970062229-OOST13WCF7PQWAOZSH64/KellyMalo27.jpg?format=1500w" />
-				</div>	
-
-
-	</section>
-
-
-<section>
-	
-		<body>
-		
-			<div class="textbox"> <span> About Photography </span> 
-				<br>
-				Photography is the art, application, and practice of creating durable images by recording light, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film. 
-
-				Typically, a lens is used to focus the light reflected or emitted from objects into a real image on the light-sensitive surface inside a camera during a timed exposure. With an electronic image sensor, this produces an electrical charge at each pixel, which is electronically processed and stored in a digital image file for subsequent display or processing. The result with photographic emulsion is an invisible latent image, which is later chemically "developed" into a visible image, either negative or positive depending on the purpose of the photographic material and the method of processing. A negative image on film is traditionally used to photographically create a positive image on a paper base, known as a print, either by using an enlarger or by contact printing.
+<!-- jumbotron -->
+<section class="container-fluid" id="jumbotron">
+	<div class="container">
+		<div class="row">
+			<section class="col-lg-6 offset-1">
+				<h1><span>No. 2 <br> Pencil</span> </br>Sharper <br> Than ever.</h1>
+				<a href="#" id="buy-now">Buy now</a>
+			</section>
+		</div> <!-- .row -->
+		<div class="row">
+			<div class="col-lg-6 offset-md-1" id="watch-video">
 			</div>
+		</div> <!-- .row -->
+	</div> <!-- .container -->
+</section>
 
-		<div class="textbox"> <span>Weddings & Engagements Packages</span> 
+<!-- secondary hero-->
+<section class="container-fluid" id="secondary">
+	<div class="container">
+		<div class="row">
+			<section class="col-lg-6 offset-md-1"> </section>
+			<div class="row">
+			</div>
+		</div> <!-- .row -->
+	</div> <!-- .container -->
+</section>
+
+
+<!-- Crafted for creativity section-->
+<section class="container" id="readytowrite"> <!-- This is the Simply Works section -->
+	<div class="row">
+		<section class="col-12"> <!-- The simply works section actually splits into 2 parts so we need to create a <section> inside a <section> -->
+			<h2>CRAFTED FOR CREATIVITY. <br> MADE FOR TAX FORMS.</h2>
+			<h3>Sharp minds require sharp tools. No. 2 Pencil’s wood body forms a perfectly <br> cylindrical case for graphite, the part that leaves its mark on the page when <br> you show it what to do. Built for writing, designed for doodles.</h3>
+		</section>
+	</div>
+	<section>
+		<div class="row" id="fiftythree">
+			<section class="col-3 offset-2">
+				<img src="images/Asset 5.png" alt="erase">
+				<h4>FiftyThree Shades of Grey</h4>
+				<h5>No. 2 Pencil makes sultry shades of grey. Gently rub the flat edge of the pencil tip back and forth to create contrast between light and dark. Smudge with your finger or side of your hand to get dirty. Chiaroscuro never felt so good.</h5>
+		    </section>
+
+			<section class="col-3 offset-3">
+				<img src="images/Asset 6.png" alt="Kiss to pair icon" id="kiss">	
+				<h4>Erase</h4>
+				<h5>The best tools don't require a lot of fuss - they just work. With Pencil, we've radically simplified things like charging and wireless connection so you can spend less time in menus and more time creating.</h5>
+			</section>
+		</div>
+	</section>
+</section>
+
+
+<!--SECTION 8-->
+		<!-- simply works -->
+<section class="container" id="readytowrite "> <!-- This is the READY TO WRITE section -->
+	<div class="row">
+		<section class="col-12"> <!-- The simply works section actually splits into 2 parts so we need to create a <section> inside a <section> -->
+			<h2>READY-TO-WRITE.</h2>
+			<h3>Every No. 2 Pencil comes with patented ready-to-write technology. We’ve radically simplified things like making To Do lists, so you can spend less time remembering what to buy and more time figuring out what you wrote.</h3>
+		</section>
+	</div>
+	<section>
+		<div class="row" id="fiftythree">
+			<section class="col-3 offset-1">
+				<img src="images/pencil-icons-02.png" alt="erase">
+				<h6>Look Sharp</h6>
+				<h5>The tip on your No. 2 Pencil should make it through first and second periods, but probably won’t last all day. To sharpen, we recommend this video: <span> How To Sharpen Pencils. </span> </h5>
+		    </section>
+
+
+
+<!--SECTION 9-->
+			<section class="col-3">
+				<img src="images/Asset 2.png" alt="Kiss to pair icon" id="kiss">		
+				<h6>The Write Stuff</h6>
+				<h5>Writing as it should be: no user manuals, no electronic thingamabobs. Just use your No. 2 Pencil like a pen. In the right hands, it’s neat, affordable, and easy to use. (In the wrong hands, someone loses an eye.)</h5>
+			</section>
+
+			<section class="col-3">
+				<img src="images/pencil-icons-04.png" alt="Kiss to pair icon" id="kiss">
+				<h6>Made for Multiple Choice</h6>
+				<h5> Compatible with <span> Scantron® forms </span>, the leading authority on standardized test bubble sheets.</h5>
+			</section>
+		</div>
+	</section>
+
+
+<!--SECTION 10-->
+	<section class="container" id="Introductory"> 
+					
+<!-- This is the BOTTOM section -->
+		<div class="row">
+			<section class="col-12"> <!-- The simply works section actually splits into 2 parts so we need to create a <section> inside a <section> -->
+				<h6>Introductory pricing for a limited time. </h6> 
+				<section class="col-12 offset-5">
+				<a href="#" id="buy-now">Buy now</a>
+				</section>
 				<br>
-			All brides know that wedding photos are one of the most important parts of the wedding day, so coming up with a must-have wedding photo list should be high on your wedding planning priorities. These are the memories you'll cherish forever and even look back on the very next day ("It goes by in a flash," they all say). That's why you want to make sure your photographer nails every photo-op, starting with the getting ready photos all the way through to your (sparkler) exit.Let me share these special days & moments with you! Engagement sessions start at $400 and wedding packages begin at $1600. Please contact me for more details. </div>
-		</body>
-
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+			</section>
+		</div>
 	</section>
+</section>
 
-<section>
-
-		<div class="container1">
-    			<img src="https://images.squarespace-cdn.com/content/v1/5ee3fd21ad8db210d3b84377/1592092408361-KV5Z2Y1J6H3NIG6MNL0F/Jon%26Nadine43.jpg?format=1500w" />
+				<!--FOOTER STYLING -->  
+<footer class="container-fluid"> <!-- Last is the footer. To keep things simple, make sure this section is at the same level of indent as the header -->
+			<div class="container">
+				<div class="row">
+					<div class="col-3">
+						<img src="images/logo-53.png" alt="Pencil 53 logo">
+					</div>
+					<nav class="col-2"> <!-- There are 4 columns of navigation links -->
+						<ul>
+							<li><a href="#">Paper</a></li>
+							<li><a href="#">Products</a></li>
+						</ul>
+					</nav>
+					<nav class="col-2">
+						<ul>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Support</a></li>
+						</ul>
+					</nav>
+					<nav class="col-2">
+						<ul>
+							<li><a href="#">Press</a></li>
+							<li><a href="#">Jobs</a></li>
+						</ul>
+					</nav>	
+					<nav class="col-2">
+						<ul>
+							<li><a href="#">About</a></li>
+						</ul>
+					</nav>
 				</div>
-
-		<div class="container2">
-    			<img src="https://images.squarespace-cdn.com/content/v1/5ee3fd21ad8db210d3b84377/2f105f62-26de-49cf-a62c-b57b51038833/Kate%26JaredWedding157.jpg?format=1500w" />
+				<div class="row"> <!-- include a section for the copyright info -->
+					<section class="col-12 copyright">
+						<h5>
+							© 2018 FiftyThree, Inc.
+							<a href="#">Terms</a> 
+							<a href="#">Privacy</a>
+							<a href="#">Legal</a>
+							<a href="#">Security</a>
+						</h5>
+					</section>
 				</div>
-
-		<div class="container3">
-    			<img src="https://images.squarespace-cdn.com/content/v1/5ee3fd21ad8db210d3b84377/1599667010108-43VFZ10XSEXT92PGSKAV/DeidraZuchotzki10.jpg?format=1500w" />
-				</div>	
-				
-
-<section>
-
-		
-		<div class="textbox2"> <img src="https://icon-library.com/images/photography-icon-png/photography-icon-png-8.jpg"></div>
-
-		<div class="textbox2"> <img src="https://static.thenounproject.com/png/693157-200.png"> </div>
-
-		<div class="textbox2"> <img src="https://www.pngkey.com/png/full/4-49634_film-reel-filled-icon-film-reel-icon-png.png"> </div>
-
-		<div class="textbox2"> <img src="https://i.pinimg.com/originals/25/bc/4a/25bc4a28d63be32eff9e4b6c5062bb65.png"> </div>
-
-
-		
-
-	</section>
-
-		
+			</div>
+		</footer>
+	</body>
+</html>
